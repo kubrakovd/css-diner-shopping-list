@@ -1,0 +1,102 @@
+* {
+	transition: all .1s ease-in;
+	 padding: 0;
+ 	 margin: 0;
+}
+
+body {
+	font: 400 26px/1.3 "Trebuchet MC", Trebuchet, Arial, sans-serif;
+	border: 25px solid #fff;
+	background-color: #3B3F45;
+	color: #f9f9f9;
+	min-height: 100%;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+.dk-header {
+	color: #eb7e7f;
+	background-color:#4A4F56;
+	text-align: center;
+	vertical-align: 1px;
+	padding-top:15px;
+	padding-bottom:15px;
+
+}
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+}
+.dk-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+main {
+	background-color: #88839E;
+}
+.dk-footer {
+	color: #eb7e7f;
+	background-color:#4A4F56;
+	text-align: center;
+	padding: 15px;
+	margin-top:30px;
+}
+li:nth-child(2n) {
+	background-color: #797890;
+}
+
+.dk-container span {
+	vertical-align: middle;
+}
+
+.dk-shopping-list li {
+	list-style-type: none;
+}
+.dk-shopping-list ul {
+	margin-left: 0;
+    padding-left: 0;
+}
+
+.dk-small:before {
+	content:'(';
+}
+.dk-small:after {
+	content:')';
+}
+.dk-small {
+	color: #B6B5C9;
+	font-size: 20px;
+	font: Arial;
+}
+h4 {
+	font-weight: normal;
+}
+.dk-shopping-list input[type="checkbox"] {
+	 width: 20px;
+	 height: 20px;
+}
+.dk-shopping-list label{
+	display: block;
+	cursor: pointer;
+	padding: 15px;
+}
+label:hover {
+	 background-color:#625E77;
+	 border-top:4px solid white;
+	 border-bottom: 4px solid white;
+}
+label:active {
+	 background-color:#A27378;
+}
+
+ input[type="checkbox"]:checked + span>small {
+  	text-decoration: line-through;
+  	color:#9D8E99;
+ }
+input[type="checkbox"]:checked + span {
+  	text-decoration: line-through;
+  	color:#9D8E99;
+ }
